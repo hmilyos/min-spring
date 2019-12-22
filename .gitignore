@@ -1,24 +1,37 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
+*.class
 
+#package file
+*.war
+*.ear
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+#kdiff3 ignore
+*.orig
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-*.gradle
-.gradle/
 gradle/*
+*/.gradle/*
 
+#maven ignore
+target/
 
+#eclipse ignore
+.settings/
+.project
+.classpatch
+
+#idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+# temp file
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
